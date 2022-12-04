@@ -455,7 +455,7 @@ class MediaInsightsStream(InstagramStream):
                 return [
                     "exits",
                     "impressions",
-                    "reach",
+                    # "reach",
                     "replies",
                     "taps_forward",
                     "taps_back",
@@ -465,7 +465,7 @@ class MediaInsightsStream(InstagramStream):
                     "comments",
                     "likes",
                     "plays",
-                    "reach",
+                    # "reach",
                     "saved",
                     "shares",
                     "total_interactions",
@@ -474,7 +474,7 @@ class MediaInsightsStream(InstagramStream):
                 metrics = [
                     "engagement",
                     "impressions",
-                    "reach",
+                    # "reach",
                     "saved",
                 ]
                 if media_type == "VIDEO":
