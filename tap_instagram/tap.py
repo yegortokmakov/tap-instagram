@@ -55,7 +55,7 @@ class TapInstagram(Tap):
         ),
         th.Property(
             "ig_user_ids",
-            th.ArrayType(th.StringType),
+            th.ArrayType(th.IntegerType),
             required=True,
             description="User IDs of the Instagram accounts to replicate",
         ),
